@@ -16,7 +16,7 @@ const images = [
   },
 ];
 
-const galleryRef = document.querySelector('#gallery')
+const galleryRef = document.querySelector('#gallery');
 
 const makeImgEl = imgEl => {
   
