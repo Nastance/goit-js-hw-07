@@ -21,7 +21,7 @@ const galleryRef = document.querySelector('#gallery')
 const makeImgEl = imgEl => {
   
   return `<li>
-  <img url='${imgEl.url}'
+  <img usrc='${imgEl.url}'
   alt='${imgEl.alt}'>
   </li>`
 };
